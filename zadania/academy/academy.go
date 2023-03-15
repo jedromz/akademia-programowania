@@ -5,10 +5,10 @@ import (
 )
 
 type Student struct {
-	Name      string
-	Grades    []int
-	Project   int
-	Attendace []bool
+	Name       string
+	Grades     []int
+	Project    int
+	Attendance []bool
 }
 
 // AverageGrade returns an average grade given a
@@ -23,7 +23,8 @@ func AverageGrade(grades []int) int {
 	for _, v := range grades {
 		sum += v
 	}
-	return int(math.Round(float64(sum) / float64(size)))
+	avg := float64(sum) / float64(len(grades))
+	return int(math.Round(avg))
 }
 
 // AttendancePercentage returns a percentage of class
@@ -34,13 +35,13 @@ func AverageGrade(grades []int) int {
 // floating-point number ranging from  0 to 1,
 // with 2 digits of precision.
 func AttendancePercentage(attendance []bool) float64 {
-	attCount := 0.0
-	for _, v := range attendance {
-		if v == true {
-			attCount++
+	presentCount := 0
+	for _, present := range attendance {
+		if present {
+			presentCount++
 		}
 	}
-	return attCount / float64(len(attendance))
+	return float64(presentCount) / float64(len(attendance))
 }
 
 // FinalGrade returns a final grade achieved by a student,
@@ -50,21 +51,22 @@ func AttendancePercentage(attendance []bool) float64 {
 // and an average grade from the semester, with adjustments based
 // on the student's attendance. The final grade is rounded
 // to the nearest integer.
-
-// If the student's attendance is below 80%, the final grade is
+//
+//	If the student's attendance is below 80%, the final grade is
+//
 // decreased by 1. If the student's attendance is below 60%, average
 // grade is 1 or project grade is 1, the final grade is 1.
 func FinalGrade(s Student) int {
-	att := AttendancePercentage(s.Attendace)
-	grade := AverageGrade(s.Grades)
-	if s.Project == 1 || grade == 1 {
+	att := AttendancePercentage(s.Attendance)
+	avgGrade := AverageGrade(s.Grades)
+	//Project or Semester failed
+	if s.Project == 1 || avgGrade == 1 {
 		return 1
 	}
-	finalGrade := int(math.Round((float64(s.Project + grade)) / 2))
+	finalGrade := int(math.Round(float64(avgGrade+s.Project) / 2.0))
 	switch {
 	case att < 0.6:
 		finalGrade = 1
-
 	case att < 0.8:
 		finalGrade--
 	}
