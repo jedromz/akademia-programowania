@@ -4,11 +4,14 @@ https://www.reddit.com/r/golang/comments/11fijrn/whos_hiring_march_2023/
 Moderation on Command-Line GPT Clients
 https://www.reddit.com/r/golang/comments/11xp8p6/moderation_on_commandline_gpt_clients/
 
+github.com/cardrank/cardrank v0.11.0: poker hand evaluator
+https://github.com/cardrank/cardrank/releases/tag/v0.11.0
+
 Portal: a CLI file transfer utility from any computer to another 🌌
 https://github.com/SpatiumPortae/portal
 
-github.com/cardrank/cardrank v0.11.0: poker hand evaluator
-https://github.com/cardrank/cardrank/releases/tag/v0.11.0
+Generics: Making Go more Pythonic?
+https://www.reddit.com/r/golang/comments/11yh4i4/generics_making_go_more_pythonic/
 
 Writing unit tests for an a library that needs to perform internet related tasks?
 https://www.reddit.com/r/golang/comments/11xx3al/writing_unit_tests_for_an_a_library_that_needs_to/
@@ -72,7 +75,4 @@ https://onlinetool.io/goplayground/
 
 How to make semantic token highlighting work with gopls in neovim?
 https://www.reddit.com/r/golang/comments/11xe63t/how_to_make_semantic_token_highlighting_work_with/
-
-Introducing wazero from Tetrate
-https://tetrate.io/blog/introducing-wazero-from-tetrate/?utm_campaign=Wazero%20Launch&amp;utm_content=242066038&amp;utm_medium=social&amp;utm_source=twitter&amp;hss_channel=tw-998918265177952259
 
