@@ -1,0 +1,78 @@
+Who's Hiring? - March 2023
+https://www.reddit.com/r/golang/comments/11fijrn/whos_hiring_march_2023/
+
+Moderation on Command-Line GPT Clients
+https://www.reddit.com/r/golang/comments/11xp8p6/moderation_on_commandline_gpt_clients/
+
+Portal: a CLI file transfer utility from any computer to another 🌌
+https://github.com/SpatiumPortae/portal
+
+github.com/cardrank/cardrank v0.11.0: poker hand evaluator
+https://github.com/cardrank/cardrank/releases/tag/v0.11.0
+
+Writing unit tests for an a library that needs to perform internet related tasks?
+https://www.reddit.com/r/golang/comments/11xx3al/writing_unit_tests_for_an_a_library_that_needs_to/
+
+Learn Web Servers in Go! a free course launch
+https://www.reddit.com/r/golang/comments/11xnl5g/learn_web_servers_in_go_a_free_course_launch/
+
+Github Actions and Go
+https://olegk.dev/github-actions-and-go
+
+The Go Learning Path - Request for Feedback!
+https://www.reddit.com/r/golang/comments/11xmusn/the_go_learning_path_request_for_feedback/
+
+Synchronize / generate enums from a SQL table
+https://www.reddit.com/r/golang/comments/11y15vk/synchronize_generate_enums_from_a_sql_table/
+
+Need some suggestions or a rodemap
+https://www.reddit.com/r/golang/comments/11ybdv7/need_some_suggestions_or_a_rodemap/
+
+We just migrated our Open Source Terraform Cloud alternative from Python to Golang - looking for feedback!
+https://www.reddit.com/r/golang/comments/11xk06u/we_just_migrated_our_open_source_terraform_cloud/
+
+Subarashi golang pooling with connectors
+https://github.com/thecsw/komi
+
+How to use AnyCable-Go: building a phone call monitoring app with Hanami to analyze Twilio streams, see calls in real-time, and “peek” at them—with real-time transcripts of what’s been said.
+https://evilmartians.com/chronicles/anycable-goes-off-rails-connecting-twilio-streams-with-hanami
+
+A Guide to Embedding Static Files in Go using go:embed
+https://www.reddit.com/r/golang/comments/11x73uz/a_guide_to_embedding_static_files_in_go_using/
+
+Ebitengine v2.5.0 Released: Xbox Support (Limited), Vector Graphics, and More
+https://ebitengine.org/en/blog/v2.5.0.html
+
+Make tool for building go applications and docker/podman containers
+https://www.reddit.com/r/golang/comments/11x8u0c/make_tool_for_building_go_applications_and/
+
+Visualizing Kubernetes traffic, the non-invasive way
+https://otterize.com/blog/network-mapper-i-see-you
+
+Open source alternative to MongoDB Atlas written in Go
+https://www.tigrisdata.com/blog/mongodb-compatibility-beta/
+
+Generics stability
+https://www.reddit.com/r/golang/comments/11xknf8/generics_stability/
+
+accio: track dev dependencies
+https://www.reddit.com/r/golang/comments/11xke0m/accio_track_dev_dependencies/
+
+Handler functions, testing, httptest, custom mock matching, and some antipatterns - Part 4 of OZ is ready!
+https://www.reddit.com/r/golang/comments/11xa1kx/handler_functions_testing_httptest_custom_mock/
+
+Hello gophers, show me your concurrent code
+https://www.reddit.com/r/golang/comments/11x1oek/hello_gophers_show_me_your_concurrent_code/
+
+How to cleanup request.Body from Trailing headers?
+https://stackoverflow.com/questions/75803520/how-to-clean-io-body-from-custom-trailer-header
+
+Go Playground Improved
+https://onlinetool.io/goplayground/
+
+How to make semantic token highlighting work with gopls in neovim?
+https://www.reddit.com/r/golang/comments/11xe63t/how_to_make_semantic_token_highlighting_work_with/
+
+Introducing wazero from Tetrate
+https://tetrate.io/blog/introducing-wazero-from-tetrate/?utm_campaign=Wazero%20Launch&amp;utm_content=242066038&amp;utm_medium=social&amp;utm_source=twitter&amp;hss_channel=tw-998918265177952259
+
