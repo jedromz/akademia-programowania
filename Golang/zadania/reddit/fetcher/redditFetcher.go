@@ -26,12 +26,12 @@ type RedditFetcher interface {
 	Save(context.Context, io.Writer) error
 }
 
-type MyFetcher struct {
+type SimpleRedditFetcher struct {
 	Url     string
 	Payload response
 }
 
-func (m *MyFetcher) Fetch(ctx context.Context) error {
+func (m *SimpleRedditFetcher) Fetch(ctx context.Context) error {
 	logger, ok := ctx.Value("logger").(*log.Logger)
 	if !ok {
 		return errors.New("logger not found in context")
@@ -66,7 +66,7 @@ func makeRequest(ctx context.Context, url string) (*http.Response, error) {
 	}
 	return resp, nil
 }
-func (m *MyFetcher) Save(ctx context.Context, writer io.Writer) error {
+func (m *SimpleRedditFetcher) Save(ctx context.Context, writer io.Writer) error {
 	logger, ok := ctx.Value("logger").(*log.Logger)
 	if !ok {
 		return errors.New("logger not found in context")
@@ -79,7 +79,7 @@ func (m *MyFetcher) Save(ctx context.Context, writer io.Writer) error {
 	return nil
 }
 
-func writeToFile(m *MyFetcher, writer io.Writer, logger *log.Logger) error {
+func writeToFile(m *SimpleRedditFetcher, writer io.Writer, logger *log.Logger) error {
 	for _, resp := range m.Payload.Data.Children {
 		_, err := fmt.Fprintf(writer, "%s\n%s\n\n", resp.Data.Title, resp.Data.URL)
 		if err != nil {

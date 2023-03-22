@@ -19,12 +19,6 @@ https://blog.picnic.nl/how-to-find-dead-code-in-your-java-services-d167c8f22838
 A very early preview of the new Jakarta Data API
 https://openliberty.io/blog/2023/02/21/23.0.0.2-beta.html#data
 
-How to generate a XML file and download it in java-struts
-https://www.reddit.com/r/java/comments/11yf7uw/how_to_generate_a_xml_file_and_download_it_in/
-
-Can someone clarify a question in java
-https://www.reddit.com/r/java/comments/11ye5cd/can_someone_clarify_a_question_in_java/
-
 JDK 21: Disallowing the dynamic loading of agents by default
 https://mail.openjdk.org/pipermail/serviceability-dev/2023-March/046868.html
 
@@ -75,4 +69,10 @@ https://www.reddit.com/r/java/comments/11uqb00/i_finished_java_ee_bootcamp_and_i
 
 JEP draft: Launch Multi-File Source-Code Programs
 https://openjdk.org/jeps/8304400
+
+I’m lost. Is there some tips / warnings about using JFR (Java Flight Recorder) on a Java 17 Jakarta EE server on the productive environment?
+https://www.reddit.com/r/java/comments/11ug0yq/im_lost_is_there_some_tips_warnings_about_using/
+
+Mojarra 4.0.2 released!
+https://github.com/eclipse-ee4j/mojarra/releases/tag/4.0.2-RELEASE
 

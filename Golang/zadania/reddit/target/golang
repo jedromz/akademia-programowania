@@ -7,11 +7,11 @@ https://www.reddit.com/r/golang/comments/11xp8p6/moderation_on_commandline_gpt_c
 github.com/cardrank/cardrank v0.11.0: poker hand evaluator
 https://github.com/cardrank/cardrank/releases/tag/v0.11.0
 
+OpenZiti test kitchen go-http
+https://github.com/openziti-test-kitchen/go-http
+
 Portal: a CLI file transfer utility from any computer to another 🌌
 https://github.com/SpatiumPortae/portal
-
-Generics: Making Go more Pythonic?
-https://www.reddit.com/r/golang/comments/11yh4i4/generics_making_go_more_pythonic/
 
 Writing unit tests for an a library that needs to perform internet related tasks?
 https://www.reddit.com/r/golang/comments/11xx3al/writing_unit_tests_for_an_a_library_that_needs_to/
@@ -28,6 +28,9 @@ https://www.reddit.com/r/golang/comments/11xmusn/the_go_learning_path_request_fo
 Synchronize / generate enums from a SQL table
 https://www.reddit.com/r/golang/comments/11y15vk/synchronize_generate_enums_from_a_sql_table/
 
+Generics: Making Go more Pythonic?
+https://www.reddit.com/r/golang/comments/11yh4i4/generics_making_go_more_pythonic/
+
 Need some suggestions or a rodemap
 https://www.reddit.com/r/golang/comments/11ybdv7/need_some_suggestions_or_a_rodemap/
 
@@ -40,6 +43,9 @@ https://github.com/thecsw/komi
 How to use AnyCable-Go: building a phone call monitoring app with Hanami to analyze Twilio streams, see calls in real-time, and “peek” at them—with real-time transcripts of what’s been said.
 https://evilmartians.com/chronicles/anycable-goes-off-rails-connecting-twilio-streams-with-hanami
 
+Open source alternative to MongoDB Atlas written in Go
+https://www.tigrisdata.com/blog/mongodb-compatibility-beta/
+
 A Guide to Embedding Static Files in Go using go:embed
 https://www.reddit.com/r/golang/comments/11x73uz/a_guide_to_embedding_static_files_in_go_using/
 
@@ -51,9 +57,6 @@ https://www.reddit.com/r/golang/comments/11x8u0c/make_tool_for_building_go_appli
 
 Visualizing Kubernetes traffic, the non-invasive way
 https://otterize.com/blog/network-mapper-i-see-you
-
-Open source alternative to MongoDB Atlas written in Go
-https://www.tigrisdata.com/blog/mongodb-compatibility-beta/
 
 Generics stability
 https://www.reddit.com/r/golang/comments/11xknf8/generics_stability/
@@ -72,7 +75,4 @@ https://stackoverflow.com/questions/75803520/how-to-clean-io-body-from-custom-tr
 
 Go Playground Improved
 https://onlinetool.io/goplayground/
-
-How to make semantic token highlighting work with gopls in neovim?
-https://www.reddit.com/r/golang/comments/11xe63t/how_to_make_semantic_token_highlighting_work_with/
 

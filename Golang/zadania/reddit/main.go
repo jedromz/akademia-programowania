@@ -24,7 +24,7 @@ func processSubreddit(ctx context.Context, subreddit string) error {
 		return errors.New("logger not found in context")
 	}
 	filename := strings.TrimSuffix(path.Base(subreddit), ".json")
-	myFetcher := fetcher.MyFetcher{Url: Path + subreddit}
+	myFetcher := fetcher.SimpleRedditFetcher{Url: Path + subreddit}
 	file, err := os.Create(TargetDir + filename)
 	if err != nil {
 		logger.Printf("failed to create file: %v", err)
