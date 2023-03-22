@@ -13,8 +13,8 @@ import (
 )
 
 const (
-	PATH       = "https://www.reddit.com/"
-	TARGET_DIR = "target/"
+	Path      = "https://www.reddit.com/"
+	TargetDir = "target/"
 )
 
 func main() {
@@ -40,8 +40,8 @@ func main() {
 		go func(subreddit string) {
 			defer wg.Done()
 			filename := strings.TrimSuffix(path.Base(subreddit), ".json")
-			myFetcher := fetcher.MyFetcher{Url: PATH + subreddit}
-			file, err := os.Create(TARGET_DIR + filename)
+			myFetcher := fetcher.MyFetcher{Url: Path + subreddit}
+			file, err := os.Create(TargetDir + filename)
 			if err != nil {
 				logger.Printf("failed to create file: %v", err)
 				return
