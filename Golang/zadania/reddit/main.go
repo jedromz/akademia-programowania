@@ -1,6 +1,7 @@
 package main
 
 import (
+<<<<<<< HEAD
 	"context"
 	"errors"
 	"fmt"
@@ -11,6 +12,10 @@ import (
 	"strings"
 	"sync"
 	"time"
+=======
+	"io"
+	"reddit/fetcher"
+>>>>>>> upstream/main
 )
 
 const (
@@ -45,6 +50,7 @@ func processSubreddit(ctx context.Context, subreddit string) error {
 	return nil
 }
 func main() {
+<<<<<<< HEAD
 	fmt.Println("hello r/golang!")
 
 	ctx := context.Background()
@@ -74,4 +80,11 @@ func main() {
 		}(v)
 	}
 	wg.Wait()
+=======
+	var f fetcher.RedditFetcher // do not change
+	var w io.Writer             // do not change
+
+	f.Fetch()
+	f.Save(w)
+>>>>>>> upstream/main
 }
