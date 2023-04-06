@@ -202,7 +202,6 @@ func TestName(t *testing.T) {
 	}
 }
 
-
 func TestYear(t *testing.T) {
 	got := Sophomore{}.Year()
 	if got != 2 {
