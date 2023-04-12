@@ -1,10 +1,10 @@
 package academy_test
 
 import (
+	"errors"
 	"fmt"
 	academy "github.com/grupawp/akademia-programowania/Golang/zadania/academy2"
 	"github.com/grupawp/akademia-programowania/Golang/zadania/academy2/mocks"
-	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
@@ -92,7 +92,6 @@ func TestGradeStudent(t *testing.T) {
 }
 func TestGradeYear(t *testing.T) {
 	t.Run("should return error when repository returns error", func(t *testing.T) {
-
 		mockRepo := mocks.NewRepository(t)
 		mockRepo.On("List", uint8(1)).Return(nil, fmt.Errorf("failed to list students"))
 
@@ -109,9 +108,9 @@ func TestGradeYear(t *testing.T) {
 
 		assert.NoError(t, err)
 	})
+
 	t.Run("should return error when GradeYear returns error", func(t *testing.T) {
 		mockRepo := mocks.NewRepository(t)
-
 		mockRepo.On("List", uint8(1)).Return([]string{"Alice"}, nil)
 		mockRepo.On("Get", "Alice").Return(nil, errors.New("failed to get student"))
 
@@ -119,5 +118,4 @@ func TestGradeYear(t *testing.T) {
 
 		assert.Error(t, err)
 	})
-
 }
